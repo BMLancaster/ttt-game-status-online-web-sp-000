@@ -20,12 +20,14 @@ WIN_COMBINATIONS.each do |win_set| #1st array iterator
   
 if board == win_set
   puts "#{win_type} win!"
-  return true
 else
   return false
 end
 end
-  
+end
+end
+
+#old method for won?
  #if win_set = WIN_COMBINATIONS[0]
    # puts "Top row win!"
   #elsif win_set = WIN_COMBINATIONS[1]
